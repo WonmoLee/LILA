@@ -74,16 +74,15 @@
   height: 460px;
 }
 
-.slider_item p {
+.slider_item strong {
   font-size: 35px;
   margin: 2% 0 0 5%;
   color: white;
 }
 
-.slider_item p span {
+.slider_item strong span {
   font-size: 15px;
-  color: rgb(214, 231, 231);
-
+  color: #FECDD6;
 }
 
 .showing{
@@ -158,12 +157,12 @@
 }
 
 .main_point li {
-  width: 13%;
+  width: 10%;
   text-align: center;
 }
 
 .main_point li a img {
-  width: 60%;
+  width: 100%;
 }
 
 .index_content2 {
@@ -181,4 +180,13 @@
 
 .index_content2 a span {
   font-weight: bold;
+}
+
+/* 시간 카운터 */
+#counter {
+  display: flex;
+  height: 167px;
+  color: orangered;
+  font-size: 25px;
+  font-weight: bolder;
 }
