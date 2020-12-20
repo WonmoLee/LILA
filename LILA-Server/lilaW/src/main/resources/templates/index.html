@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/lilaLg.png" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="/css/lila.css">
-    
+    <script defer src="/js/modal.js"></script>
     <script defer src="/js/carousel.js"></script>
 	<script defer src="/js/saleCount.js"></script>
     <title>리라</title>
@@ -13,6 +13,15 @@
 <body>
 <th:block th:replace="layout/header"></th:block>
 <section>
+	<div class="modal hidden">
+      <div class="md_overlay"></div>
+        <div class="md_content">
+          <button class="close_button">X</button>
+          <p>2020 보상원정대</p>
+          <h2>새해 소망에 투표하면<br>총 천만원 혜택 당첨!</h2>
+          <a href="#">3초만에 투표하기</a>
+        </div>
+    </div>
 	<nav class="menu_nav">
       <h1><a href="#"><img class="menuIcon" src="/img/menu.png"></a></h1>
       <p><a href="#">보상원정대</a></p>
