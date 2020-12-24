@@ -11,7 +11,6 @@ var move;
 //캐러셀 내 프로그레스바
 function progressBar(classNum) {
   var ele=document.getElementsByClassName('progs')[classNum];
-  console.log(ele)
   var width = -25;
   id = setInterval(frame, 65);
   function frame(){
